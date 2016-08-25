@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Site made with Mobirise Website Builder v2.11.1, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v2.11.1, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/mobirise/css/style.css">
+  <link rel="stylesheet" href="assets/dropdown-menu-plugin/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+<section class="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--sticky mbr-navbar--auto-collapse" id="ext_menu-11">
+    <div class="mbr-navbar__section mbr-section">
+        <div class="mbr-section__container container">
+            <div class="mbr-navbar__container">
+                
+                <div class="mbr-navbar__hamburger mbr-hamburger"><span class="mbr-hamburger__line"></span></div>
+                <div class="mbr-navbar__column mbr-navbar__menu">
+                    <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
+                        <div class="mbr-navbar__column">
+                            <ul class="mbr-navbar__items mbr-navbar__items--right float-left mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active mbr-buttons--only-links"> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com">POWER MOD CALCULATOR</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com">RSA ENCRYPTION</a></li>  <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com">SSl</a></li> <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com"></a></li>         <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com"></a></li>    <li class="mbr-navbar__item"><a class="mbr-buttons__link btn text-white" href="https://mobirise.com"></a></li>      </ul>                            
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="engine"><a rel="external" href="https://mobirise.com">html site builder</a></section><section class="mbr-section mbr-after-navbar" id="content1-12">
+    <div class="mbr-section__container container mbr-section__container--first">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><h1>Power mod calculator</h1><p><br></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-14">
+    <div class="mbr-section__container container mbr-section__container--middle">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p><br></p><h1>RSA ENCRYPTION -&nbsp;</h1><p>The RSA algorithm involves four steps: key generation, key distribution, encryption and decryption.</p><p>RSA involves a public key and a private key. The public key can be known by everyone and is used for encrypting messages. The intention is that messages encrypted with the public key can only be decrypted in a reasonable amount of time using the private key.</p><p>The basic principle behind RSA is the observation that it is practical to find three very large positive integers e,d and n such that with modular exponentiation for all m:</p><p>(m^e)^d = m =(p)mod(n)<br></p><p>and that even knowing e and n or even m it can be extremely difficult to find d.</p><p><br></p><p>Additionally, for some operations it is convenient that the order of the two exponentiations can be changed and that this relation also implies:</p><p>(m^e)^d = m =(p)mod(n)<br></p><p>Key distribution</p><p>To enable Bob to send his encrypted messages, Alice transmits her public key (n, e) to Bob via a reliable, but not necessarily secret route. The private key is never distributed.</p><p>Encryption-</p><p>Suppose that Bob would like to send message M to Alice.</p><p>He first turns M into an integer m, such that 0 ≤ m &lt; n and gcd(m, n) = 1 by using an agreed-upon reversible protocol known as a padding scheme. He then computes the ciphertext c, using Alice's public key e, corresponding to</p><p>c = m^e pmod{n}&nbsp;<br></p><p>This can be done efficiently, even for 500-bit numbers, using modular exponentiation. Bob then transmits c to Alice.</p><p>Decryption-</p><p>Alice can recover m from c by using her private key exponent d by computing</p><p>c^d = (m^e)^d = m \pmod{n}<br></p><p>Given m, she can recover the original message M by reversing the padding scheme.</p><p>Key generation-<br></p><p>The keys for the RSA algorithm are generated the following way:</p><p>Choose two distinct prime numbers p and q.</p><p>For security purposes, the integers p and q should be chosen at random, and should be similar in magnitude but 'differ in length by a few digits'[2] to make factoring harder. Prime integers can be efficiently found using a primality test.</p><p>Compute n = pq.</p><p>n is used as the modulus for both the public and private keys. Its length, usually expressed in bits, is the key length.</p><p>Compute φ(n) = φ(p)φ(q) = (p − 1)(q − 1) = n − (p + q − 1), where φ is Euler's totient function. This value is kept private.</p><p>Choose an integer e such that 1 &lt; e &lt; φ(n) and gcd(e, φ(n)) = 1; i.e., e and φ(n) are coprime.</p><p>Determine d as d ≡ e−1 (mod φ(n)); i.e., d is the modular multiplicative inverse of e (modulo φ(n))</p><p>This is more clearly stated as: solve for d given d⋅e ≡ 1 (mod φ(n))</p><p>e having a short bit-length and small Hamming weight results in more efficient encryption – most commonly 216 + 1 = 65,537. However, much smaller values of e (such as 3) have been shown to be less secure in some settings.</p><p>e is released as the public key exponent.</p><p>d is kept as the private key exponent.</p><p>The public key consists of the modulus n and the public (or encryption) exponent e. The private key consists of the modulus n and the private (or decryption) exponent d, which must be kept secret. p, q, and φ(n) must also be kept secret because they can be used to calculate d.</p><p><br></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section" id="content1-13">
+    <div class="mbr-section__container container mbr-section__container--last">
+        <div class="row">
+            <div class="mbr-article mbr-article--wysiwyg col-sm-8 col-sm-offset-2"><p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p></div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smooth-scroll/SmoothScroll.js"></script>
+  <script src="assets/mobirise/js/script.js"></script>
+  <script src="assets/dropdown-menu-plugin/script.js"></script>
+  
+  
+</body>
+</html>
